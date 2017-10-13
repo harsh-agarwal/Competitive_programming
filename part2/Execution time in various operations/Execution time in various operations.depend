@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1433131688 source:f:\my programs\execution time in various operations\main.cpp
+	<iostream>
+	<ctime>
+

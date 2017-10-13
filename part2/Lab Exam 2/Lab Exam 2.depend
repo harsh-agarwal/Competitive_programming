@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1446719940 source:f:\my programs\lab exam 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

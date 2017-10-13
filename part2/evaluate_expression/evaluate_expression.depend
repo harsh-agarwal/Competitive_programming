@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1502914921 source:/home/avi/Documents/evaluate_expression/main.cpp
+	<iostream>
+	<vector>
+	<stack>
+	<string>
+

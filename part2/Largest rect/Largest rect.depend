@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1439328408 source:f:\my programs\largest rect\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+

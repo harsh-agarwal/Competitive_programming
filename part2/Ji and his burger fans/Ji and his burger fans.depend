@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1433575329 source:f:\my programs\ji and his burger fans\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+
