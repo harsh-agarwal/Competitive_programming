@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1441819340 source:f:\my programs\assignment 2 question 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+

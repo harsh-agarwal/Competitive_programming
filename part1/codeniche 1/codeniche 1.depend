@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1421338554 source:f:\my programs\codeniche 1\main.cpp
+	<iostream>
+	<ctype.h>
+	<cmath>
+

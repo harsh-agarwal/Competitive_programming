@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1439549842 source:f:\my programs\ds lab 1\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+
