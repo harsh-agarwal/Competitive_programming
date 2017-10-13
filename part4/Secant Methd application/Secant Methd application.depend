@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1440948201 source:f:\my programs\secant methd application\main.cpp
+	<iostream>
+	<cmath>
+	<vector>
+

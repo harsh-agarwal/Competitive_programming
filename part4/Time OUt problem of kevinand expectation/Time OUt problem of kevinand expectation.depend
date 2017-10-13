@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1434135362 source:f:\my programs\time out problem of kevinand expectation\main.cpp
+	<iostream>
+	<cmath>
+	<cstdio>
+

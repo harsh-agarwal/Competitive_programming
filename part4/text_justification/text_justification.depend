@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1502785475 source:/home/avi/Documents/text_justification/main.cpp
+	<iostream>
+	<vector>
+	<string>
+

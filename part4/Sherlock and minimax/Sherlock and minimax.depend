@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1432179048 source:f:\my programs\sherlock and minimax\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+	<cmath>
+	<algorithm>
+
