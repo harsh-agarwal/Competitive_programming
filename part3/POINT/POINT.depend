@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1420092334 source:f:\my programs\point\main.cpp
+	<iostream>
+	"geometry.h"
+
+1420092306 f:\my programs\point\geometry.h
+	<stdio.h>
+

@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+void pascal_triangle(int n)
+{
+    int i=0;
+    int *Ar;
+    Ar=(int*)malloc(((n*(n+1))/2)*sizeof(int));
+    Ar[0]=1;
+    Ar[1]=1;
+    Ar[2]=1;
+
+
+    int k=3;int j=2;
+    while(k<((n*(n+1))/2))
+    {
+        Ar[k]=1;
+        Ar[k+j]=1;
+        j++;
+        k=k+j;
+    }
+    int count=3;int row=3;
+    while(count<((n*(n+1))/2))
+    {
+        if(Ar[count]==1)
+        {
+            count=count+1;
+            while(Ar[count]!=1)
+            {
+                Ar[count]=Ar[count-row]+Ar[count-row+1];
+                count++;
+            }
+            row++;count++;
+        }
+    }
+    j=1;k=0;int sum=0;
+    while(j<=n)
+    {
+        for(i=n-j;i>=1;i--)
+        printf("\t");
+        sum=j+sum;
+        while(k<sum)
+        {
+            printf("%d\t\t",Ar[k]);
+            k++;
+        }
+
+        printf("\n");
+        j++;
+    }
+}
+
+int main()
+{
+    printf("Hello world!\n");
+    int n;
+    printf("please enter the value the number of rows to be printed \n");
+    scanf("%d",&n);
+    pascal_triangle(n);
+    return 0;
+}
